@@ -67,6 +67,7 @@ h2 {
   cursor: pointer;
   border-radius: 3px;
   margin-right: 5px;
+  margin-bottom: 30px;
 }
 
 .button:hover {
