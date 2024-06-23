@@ -1,0 +1,226 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.reset-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.reset-icon:hover {
+  color: #0056b3;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="number"],
+.input-group input[type="text"],
+.input-group input[type="checkbox"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.dialog {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dialog label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dialog input[type="text"],
+.dialog input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.dialog input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.dialog button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.dialog button:hover {
+  background-color: #0056b3;
+}
+
+i.fas.fa-edit,
+i.fas.fa-trash {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+i.fas.fa-edit:hover,
+i.fas.fa-trash:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .calculator {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: none; 
+}
+
+table th, table td {
+  border: none; 
+}
+
+table tr.net-salary {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.item-display {
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-display .epf-etf {
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.item-display i {
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.item-display i:hover {
+  color: #0056b3;
+}

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.salary-calculator {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.salary-calculator input,
+.salary-calculator button {
+  margin: 5px 0;
+}
