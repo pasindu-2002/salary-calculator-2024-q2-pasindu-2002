@@ -156,7 +156,9 @@ function SalaryCalculator() {
               <i className="fas fa-trash" onClick={() => deleteAllowance(index)}></i>
             </div>
           ))}
+        
           <button className="button" onClick={() => openDialog('allowance')}>Add New Allowance</button>
+          <hr></hr>
           <h2>Deductions</h2>
           <p>Salary Advances, Loan Deductions and all</p>
           {deductions.map((deduction, index) => (
@@ -191,7 +193,7 @@ function SalaryCalculator() {
                 <td>{salaryData.grossDeduction.toLocaleString()}</td>
               </tr>
               <tr>
-                <td>Employee EPF</td>
+                <td>Employee EPF (8%)</td>
                 <td>{salaryData.employeeEPF.toLocaleString()}</td>
               </tr>
               <tr>
@@ -203,15 +205,15 @@ function SalaryCalculator() {
                 <td>{salaryData.netSalary.toLocaleString()}</td>
               </tr>
               <tr>
-                <td>Employer EPF</td>
+                <td>Employer EPF (12%)</td>
                 <td>{salaryData.employerEPF.toLocaleString()}</td>
               </tr>
               <tr>
-                <td>Employer ETF</td>
+                <td>Employer ETF (3%)</td>
                 <td>{salaryData.employerETF.toLocaleString()}</td>
               </tr>
               <tr>
-                <td>CTC</td>
+                <td>CTC (Cost ot Company)</td>
                 <td>{salaryData.ctc.toLocaleString()}</td>
               </tr>
             </tbody>
