@@ -71,6 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Interface
 
+![Screenshot 2024-08-04 161122](https://github.com/user-attachments/assets/71bcedd3-4279-4e77-b05e-372c7277503e)
+
 ![Screenshot 2024-08-04 161137](https://github.com/user-attachments/assets/33f77e20-d6cd-4dce-846e-e96c6c21b7d5)
 
-![Screenshot 2024-08-04 161122](https://github.com/user-attachments/assets/71bcedd3-4279-4e77-b05e-372c7277503e)
+
